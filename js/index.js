@@ -26,7 +26,7 @@ function renderizarDatosUsuario(datos) {
 
         let mapa = document.getElementById("map");
         mapa.innerHTML = `<iframe id="inlineFrameExample"
-        src="https://maps.google.com/?q=${datos.location.coordinates.latitude},${datos.location.coordinates.longitude}&output=embed">
+        src="https://maps.google.com/?q=${datos.location.coordinates.latitude},${datos.location.coordinates.longitude}&z=5&output=embed">
         </iframe>`;
 }
 
